@@ -1,0 +1,715 @@
+@media screen and (max-width:767px){
+body {
+	min-width: inherit;
+}
+body img {
+	width: 100%;
+	height:auto;
+}
+.sp {
+	display: block;
+}
+.pc {
+	display: none;
+}
+
+dl.table{
+  margin:0px 0 15px;
+  list-style:none;
+  background:;
+  overflow:auto;
+}
+dl.table dt{
+  clear:both;
+  width:auto;
+	font-weight:bold;
+  float:inherit;
+  padding:10px 0 0;
+}
+dl.table dd{
+  border-bottom: 1px dotted #ccc;
+  padding:5px 0 10px 0;
+}
+
+
+/**************************************************************/
+div#header {
+	padding: 70px 10px 20px;
+	background-size: 1px auto;
+}
+
+div#header .hBox {
+	width: auto;
+}
+
+div#header .menu {
+	width: 30px;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	z-index: 10;
+}
+
+div#header .hBox .logo {
+	width: 25%;
+	position: absolute;
+	float: none;
+	left: 0;
+	top: 10px;
+	text-align: center;
+}
+
+div#header .hBox .logo img {
+	width: 100%;
+	height:auto;
+}
+
+div#header .hBox .lBox {
+	margin: 0 0 15px;
+	width: auto;
+	float: none;
+}
+
+div#header .hBox .lBox p {
+	font-size: 10px;
+	letter-spacing: 1px;
+	position:absolute;
+	top:80px;
+	left:26%;
+}
+
+div#header .hBox .lBox p img {
+	width: 24%;
+}
+
+div#header .hBox .lBox h1 {
+	margin: 0 auto;
+	width: 40%;
+	position:absolute;
+	left:26%;
+	top:25px;
+}
+
+div#header .hBox .rBox {
+	margin: 0;
+	width: auto;
+	float: none;
+}
+
+div#header .hBox .rBox ul {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+div#header .hBox .rBox li:first-child {
+	margin-left: 0;
+}
+
+div#header .hBox .rBox p {
+	display:none;
+}
+
+/**************************************************************/
+div#gNavi {
+	padding-top: 95px;
+	width: 100%;
+	height:100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: auto;
+	z-index: 999;
+	display: none;
+	background:rgba(22,48,102,0.9);
+}
+
+div#gNavi .close {
+	width: 30px;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+
+.comNavi {
+	padding: 0;
+	width: auto;
+	overflow: hidden;
+}
+.comNavi li {
+	padding: 0;
+	width: 48%;
+	margin:1%;
+	display: block;
+	float: left;
+	border:1px solid #fff;
+	box-sizing:border-box;
+}
+.comNavi li.sp{
+	display:inherit;
+}
+.comNavi li:before {
+	display: none;
+}
+.comNavi li a {
+	display: block;
+	padding: 8px 5px;
+	border:none;
+}
+.comNavi li:nth-child(2n) a {
+	border-right: none;
+}
+.comNavi li a {
+	font-size: 14px;
+	letter-spacing: 2.5px;
+	padding:7px;
+}
+.comNavi li a:hover{
+	text-decoration:none;
+	background:#1845a3;
+	padding:7px;
+}
+
+
+/**********************************************************/
+div#footer .fNavi .comNavi {
+	padding: 0;
+}
+
+div#footer .bannerList {
+	margin: 20px 5px;
+	width: auto;
+}
+
+div#footer .bannerList li {
+	width: 33%;
+	padding: 5px;
+	font-size: 10px;
+	line-height: 1.8;
+	box-sizing: border-box;
+}
+
+div#footer .bannerList a {
+	margin-bottom: 0;
+}
+
+div#footer .bannerList span {
+	display: none;
+}
+
+div#footer .copright {
+	padding: 20px 10px;
+}
+
+div#content {
+	margin-bottom: 30px;
+	float: none;
+	width: 98%;
+	margin:0 1%;
+}
+div#content.oneColumn {
+	width: 98%;
+}
+div#content p.rightImg,
+div#content p.leftImg{
+	float:inherit;
+	margin:0 auto;
+}
+
+#wrapper {
+	margin-bottom: 30px;
+}
+
+div#utility {
+	width: auto;
+	float: none;
+	clear:both;
+	margin-top:50px;
+}
+
+
+div#utility .calendar {
+	padding-bottom: 111.1%;
+	position: relative;
+}
+
+div#utility .calendar iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#wrapper .mainBox {
+	width: auto;
+}
+#wrapper .mainBox p.fixban{
+	margin:0 auto 20px;
+	width:98%;
+}
+
+
+
+p#breadcrumb{
+	margin:-40px 0 40px;
+	width: auto;
+	font-size:11px;
+}
+
+/**********************************************************/
+
+#content .headLine01 {
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+#content .headLine02 {
+	padding: 10px 15px;
+}
+
+/**********************************************************/
+.mainVisual {
+	margin: 0 0 29px;
+	padding: 45px 10px;
+}
+.mainVisual h1 {
+	width: auto;
+	font-size: 25px;
+}
+p.more{
+	margin:10px 0 80px !important;
+}
+
+/**********************************************************/
+.indexBox .mainVisual {
+	margin-bottom: 20px;
+	padding: 20px 0 40px;
+}
+
+.indexBox .mainVisual .sliderBox {
+	width: auto;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	bottom: -33px;
+}
+
+.indexBox #content p {
+	margin: 0 10px 30px;
+}
+
+.indexBox #content .linkUl {
+	margin: 0;
+	width: auto;
+}
+.indexBox #content .linkUl li {
+	margin: 0 1% 10px;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	width:48%;
+	float:left;
+}
+.indexBox #content .linkUl li .new {
+	left: 6px;
+}
+.indexBox #content .linkUl li dl {
+	margin-bottom: 8px;
+}
+.indexBox #content .linkUl li dt {
+	margin-bottom: 2px;
+	font-size: 10px;
+	font-weight: normal;
+}
+.indexBox #content .linkUl li dd {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3;
+}
+
+.indexBox #content .resultBox {
+	background-size: cover;
+}
+
+.indexBox #content .resultBox dl {
+	margin-bottom: 20px;
+	float: none;
+	width: 100%;
+}
+
+.indexBox #content .resultBox .logo {
+	margin: 0;
+	width: 30%;
+	text-align: center;
+} 
+
+.indexBox #content .resultBox .logo img {
+	margin: 0 auto;
+	width: 85px;
+}
+
+.indexBox #content .resultBox .number {
+	float: left;
+	width: 45%;
+	margin: 15px 0 0 0;
+}
+
+.indexBox #content .resultBox .text {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin: 20px 0 0;
+}
+
+.indexBox div#content .slide li p {
+	padding: 3px;
+	width:100%;
+	box-sizing:border-box;
+	letter-spacing: 0;
+	font-size:10px;
+	margin-left:0px;
+}
+
+.indexBox #content .link {
+	margin: -60px auto 0;
+}
+
+
+
+/**********************************************************/
+.innerBox #content p {
+	line-height: 2;
+}
+
+.innerBox #content .photo img {
+	width: 100%;
+}
+
+.innerBox #content .imgBox {
+	margin: 0 10px 40px;
+}
+
+.innerBox #content .imgBox .photoBox {
+	margin: 0 0 10px 10px;
+}
+
+.innerBox #content .imgBox .photoBox img {
+	width: 119px;
+}
+
+.innerBox #content .imgBox .textBox {
+	width: auto;
+	float: none;
+}
+
+.innerBox #content .textList {
+	margin: 0 10px 20px;
+}
+
+.innerBox #content .textList li {
+	padding-left: 15px;
+	line-height: 2;
+	background-size: 10px 10px;
+	background-position: left 8px;
+}
+
+.innerBox #content .txtImg {
+	margin: 0 0 20px;
+	font-size: 20px;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.innerBox #content .txtImg img {
+	margin: 0 auto 10px;
+	width: 163px;
+	display: block;
+}
+
+.innerBox #content .textUl {
+	margin: 0 10px 30px;
+}
+
+.innerBox #content .textUl li {
+	line-height: 2;
+	font-weight: bold;
+}
+
+.innerBox #content .textUl span {
+	color: #163066;
+	font-size: 18px;
+}
+
+.innerBox #content .staffDl {
+	margin: 30px 10px 50px;
+	line-height: 2;
+}
+
+.innerBox #content .staffDl dt {
+	width: 6em;
+}
+
+.innerBox #content .staffDl dd {
+	padding-left: 7em;
+}
+
+.innerBox #content .greeting {
+	margin: 0 0 25px;
+	display: table;
+	width: 100%;
+}
+
+.innerBox #content .greeting .pho {
+	padding: 0 5px;
+	float: none;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.innerBox #content .greeting .pho img {
+	width: 120px;
+}
+
+.innerBox #content .greeting .text {
+	margin-top: 0;
+	padding: 0 5px;
+	width: auto;
+	float: none;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.innerBox #content .greeting .title {
+	margin: 0 0 2px;
+	font-size: 17px;
+}
+
+.innerBox #content .greeting p span {
+	font-size: 16px;
+}
+.innerBox #content .dtlTxt {
+	margin: 0 10px 30px;
+}
+
+
+
+
+
+
+/*************************** player **********************************/
+div#playerImg{
+	height:auto;
+	background:url(../images/bg/player.jpg) no-repeat;
+}
+div#playerImg p.number{
+	font-size:18px;
+	top:0px;
+	left:15px;
+}
+div#playerImg p.onamae{
+	font-size:40px;
+	top:10px;
+	left:15px;
+}
+div#playerImg p.face{
+	float:right;
+	margin:10px;
+	width:30%;
+}
+div#playerImg p.face img{
+	width:100%;
+	height:auto;
+}
+div.playerList ul li{
+	font-size:9px;
+}
+div.playerList ul li.name{
+	font-size:11px;
+}
+
+dl.player dt{
+  width:100px;
+  float:left;
+  padding:10px 0;
+}
+dl.player dd{
+  padding:10px 0 10px 100px;
+}
+
+div#playerList{}
+div#content div#playerList h3{}
+div.playerList{
+	width:23%;
+}
+
+
+/********************* result**************************/
+table.data th {
+  padding: 10px 2px;
+  font-weight: normal;
+	font-size:10px;
+}
+table.data th:last-child {
+  border-right:1px solid #ccc;
+}
+table.data tr td {
+  padding: 10px 5px;
+	font-size:12px;
+}
+.scroll{
+	overflow: auto;
+	white-space: nowrap;
+	margin-bottom:50px;
+}
+.scroll::-webkit-scrollbar{
+	height: 5px;
+}
+.scroll::-webkit-scrollbar-track{
+	background: #F1F1F1;
+}
+.scroll::-webkit-scrollbar-thumb {
+	background: #BCBCBC;
+}
+
+ul.pager{
+	font-size:8px;
+}
+ul.pager li{
+	margin:0 1px;
+}
+ul.pager li a,
+ul.pager li a:link,
+ul.pager li a:active,
+ul.pager li a:visited{
+	padding:6px 4px;
+}
+
+
+
+table.gameResult {
+  width: 100%;
+	margin-bottom:25px;
+}
+table.gameResult th {
+  color: #111;
+  padding: 15px;
+  background: #eee;
+  font-weight: bold;
+  line-height: 120%;
+}
+table.gameResult td.zott{
+	background:url(../images/common/h_logo.png) no-repeat 10px 10px;
+	background-size:50px;
+	height:50px;
+	text-align:center;
+	font-size:30px;
+}
+table.gameResult td.nospace{
+	padding-left:0;
+	padding-right:0;
+	font-size:10px;
+}
+table.gameResult td.opponent{
+	height:50px;
+	text-align:center;
+	font-size:30px;
+}
+table.gameResult th:first-child {
+  border-radius: 5px 0 0 0;	
+}
+table.gameResult th:last-child {
+  border-radius:0 5px 0 0;
+}
+table.gameResult tr td {
+  padding: 5px 15px;
+  text-align: center;
+}
+table.gameResult tr {
+  background: #f9f9f9;
+}
+table.gameResult tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+table.gameResult tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+ol.change {
+	margin-bottom:50px;
+}
+ol.change li{
+	font-size:12px;
+}
+
+/************ form **********************************/
+form dl {
+	margin: 15px 0;
+	padding: 0 10px 10px;
+	border: 5px #eee solid;
+	box-sizing:border-box;
+	width:100%;
+}
+form dl dt {
+	float: inherit;
+	width: auto;
+	padding: 10px 0;
+}
+form dl dd {
+	padding: 10px 0 10px 0;
+}
+
+form dl input{
+	width:90%;
+	padding:1%;
+	font-size:16px;
+}
+
+form dl select{
+	width:90%;
+	padding:1%;
+	font-size:16px;
+}
+
+form dl textarea{
+	width:94%;
+}
+
+
+
+
+
+/************************* gallery ********************************/
+div.directories div.directory {
+  float: left;
+	width:48%;
+	margin:0 1% 20px;
+}
+div.directories div.directory p a {
+  width: 100%;
+}
+div.directories div.directory p a img {
+  max-width: auto;
+  max-height: auto;
+}
+
+
+
+/****************** support ********************/
+p.support-01{
+	width:40%;
+	font-size:11px;
+}
+p.support-01 img{
+	width:100%;
+	height:auto;
+}
+.support-02 img{
+	width:100px;
+	height:auto;
+}
+
+
+
+}

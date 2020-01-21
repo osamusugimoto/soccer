@@ -1,0 +1,10 @@
+$(function() {
+	$('a[rel^=cbox]').colorbox({maxWidth:'100%',maxHeight:'100%',speed:'200'});
+});
+if(window.matchMedia('(min-width: 640px)').matches){
+	$.ajax({
+		url :'../js/jquery.subwindow.js',
+		cache:false,
+		dataType: 'script'
+	});
+}

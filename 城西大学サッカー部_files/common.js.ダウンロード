@@ -1,0 +1,15 @@
+$(function(){
+	$('#utility .sNavi li:odd').addClass('style');
+	
+	$('.menu a').click(function(){
+		$('#gNavi').fadeIn();
+		return false;
+	});
+	$('#gNavi .close').click(function(){
+		$('#gNavi').fadeOut();
+		return false;
+	});
+});
+
+//設置パス
+var freo_path = '/';
